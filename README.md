@@ -1,16 +1,16 @@
-# November Git LiveLesson for Collaboration
+# Git Lesson for Collaboration
 
 We are learning the mechanics for using git on our own.
 These are the same mechanics for collaborating with other people.
 
-## Branches
+## `branch`
 
 - `branch <name>`: create a branch called `<name>`
 - `branch -a`: shows all your branches
 - `checkout <name>`: switch to your `<name>` branch
 - `fetch --prune`: sync remote information and delete any remote branches
 
-## Merging
+## `merge`
 
 - pull request: merging branches on the github interface
   - let's you review code
@@ -23,3 +23,7 @@ These are the same mechanics for collaborating with other people.
 - You can lock the master branch so all changes come in as a Pull Request
 notes
 - Conflicts will happen depening on the order of what gets merged
+
+## `rebase` and `cherry-pick`
+
+Dealing with updating your branch history
