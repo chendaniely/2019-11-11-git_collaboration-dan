@@ -17,3 +17,7 @@ These are the same mechanics for collaborating with other people.
   - aka: merge request
 - `merge <branch>`: merges the `<branch>` *into* the current branch
   - e.g., from the master branch merge in `<branch>`
+
+## Collaborators
+
+- You can lock the master branch so all changes come in as a Pull Request
