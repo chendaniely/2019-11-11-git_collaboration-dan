@@ -18,7 +18,8 @@ These are the same mechanics for collaborating with other people.
 - `merge <branch>`: merges the `<branch>` *into* the current branch
   - e.g., from the master branch merge in `<branch>`
 
-## Conflicts
+## Collaborators + Conflicts
 
-This is text that was changed in a different branch.
-I am making this branch becuase we locked the master branch.
+- You can lock the master branch so all changes come in as a Pull Request
+notes
+- Conflicts will happen depening on the order of what gets merged
