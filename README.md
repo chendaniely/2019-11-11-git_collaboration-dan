@@ -5,8 +5,12 @@
 - `branch <name>`: create a branch called `<name>`
 - `branch -a`: shows all your branches
 - `checkout <name>`: switch to your `<name>` branch
+- `fetch --prune`: sync remote information and delete any remote branches
+
+## Merging
 
 - pull request: merging branches on the github interface
   - let's you review code
   - aka: merge request
-- `fetch --prune`: sync remote information and delete any remote branches
+- `merge <branch>`: merges the `<branch>` *into* the current branch
+  - e.g., from the master branch merge in `<branch>`
