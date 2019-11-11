@@ -18,6 +18,7 @@ These are the same mechanics for collaborating with other people.
   - aka: merge request
 - `merge <branch>`: merges the `<branch>` *into* the current branch
   - e.g., from the master branch merge in `<branch>`
+  - PRs only need to be submitted once, any new branch pushes will update the PR
 
 ### Merging exercise
 
