@@ -9,6 +9,7 @@ These are the same mechanics for collaborating with other people.
 - `branch -a`: shows all your branches
 - `checkout <name>`: switch to your `<name>` branch
 - `fetch --prune`: sync remote information and delete any remote branches
+- `log --oneline --graph --decorate --all`: show you everything that is going on
 
 ## `merge`
 
@@ -17,6 +18,18 @@ These are the same mechanics for collaborating with other people.
   - aka: merge request
 - `merge <branch>`: merges the `<branch>` *into* the current branch
   - e.g., from the master branch merge in `<branch>`
+  - PRs only need to be submitted once, any new branch pushes will update the PR
+
+### Merging exercise
+
+1. create new branch
+2. go to new branch
+3. make a change
+4. go back to master
+5. make a change.
+6. merge new branch into master
+7. deal with conflict
+8. push new changes to github
 
 ## Collaborators + Conflicts
 
@@ -26,4 +39,9 @@ notes
 
 ## `rebase` and `cherry-pick`
 
-Dealing with updating your branch history
+When you want to update your branch with another without merging,
+e.g., updating your branch with bug fixes
+
+- `rebase`: general command to change history
+  - `rebase <branch_name>`: replays your current branch on top of `<branch_name>`
+- `cherry-pick`: select individual commits to "replay"
