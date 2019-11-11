@@ -17,3 +17,8 @@ These are the same mechanics for collaborating with other people.
   - aka: merge request
 - `merge <branch>`: merges the `<branch>` *into* the current branch
   - e.g., from the master branch merge in `<branch>`
+
+## Conflicts
+
+This is text that was changed in a different branch.
+I am making this branch becuase we locked the master branch.
