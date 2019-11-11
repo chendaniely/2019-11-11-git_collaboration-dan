@@ -1,4 +1,7 @@
-# Git LiveLesson for Collaboration 2019-11-11
+# November Git LiveLesson for Collaboration
+
+We are learning the mechanics for using git on our own.
+These are the same mechanics for collaborating with other people.
 
 ## Branches
 
